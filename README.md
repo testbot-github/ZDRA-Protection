@@ -1,3 +1,5 @@
+> npm init -y && npm i node@latest
+
 <h1 align="center"><img src="https://cdn.discordapp.com/attachments/759537850919944233/885901299395207219/Screenshot_2021-09-10-16-53-58-19_3a637037d35f95c5dbcdcc75e697ce91.png"></h1>
 
 <h1 align="center">ZDRA</h1>
