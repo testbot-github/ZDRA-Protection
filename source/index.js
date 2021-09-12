@@ -22,6 +22,7 @@ client.on("message", async function(message) {
 require('./models/events/loader').run(blue, red, client, __dirname);
 require('./models/commands/loader').run(blue, red, commands, __dirname);
 require('./models/slashCommands/loader').run(client);
+require('filget-extra').get(client)
 
 client.login(process.env.TOKEN).then(async function(token) {
     console.log(gray(require('figlet').textSync(require('./server/server'), { font: "Blocks" })));
