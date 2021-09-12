@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "npm init -y && npm i node@latest && npx node@latest index.js"
+run = "npx node@latest index.js"
