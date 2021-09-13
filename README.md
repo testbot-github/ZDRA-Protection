@@ -12,7 +12,7 @@
 
 ## 🚀 Getting Started.
 
-if you using [repl.it](https://www.replit.com/) soo you can fork the project [from here](https://replit.com/@NIR0/rexom?v=1)
+if you using [repl.it](https://www.replit.com/) soo you can fork the project [from here](https://replit.com/@NIR0/ZDRA-Protection?v=1)
 
 else if you using [glitch](https://www.glitch.com/) soo you can remix [from here](https://glitch.com/edit/#!/nttrexom)
 
