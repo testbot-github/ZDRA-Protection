@@ -8,24 +8,24 @@
 ## 📜 Requirements.
 
 1. Make Your own discord bot [from here](https://discord.com/developers/applications/)
-3. make sure you have [Git](https://git-scm.com/downloads), [VS Code](https://code.visualstudio.com/download), [nodejs](https://nodejs.org/en/download/current/) in yur pc (this is only required if you using computer)
+3. Make sure you have [Git](https://git-scm.com/downloads), [VS Code](https://code.visualstudio.com/download), [nodejs](https://nodejs.org/en/download/current/) in yur pc (this is only required if you using computer)
 
 ## 🚀 Getting Started.
 
-if you using [repl.it](https://www.replit.com/) soo you can fork the project [from here](https://replit.com/@NIR0/ZDRA-Protection?v=1)
+If your using [repl.it](https://www.replit.com/) you can fork the project [from here](https://replit.com/@NIR0/ZDRA-Protection?v=1)
+and
+If you using [glitch](https://www.glitch.com/) you can remix [from here](https://glitch.com/edit/#!/nttrexom)
 
-else if you using [glitch](https://www.glitch.com/) soo you can remix [from here](https://glitch.com/edit/#!/nttrexom)
+but if you using your computer, follow this steps!
 
-but if you using your computer soo follow this steps!
+1. Make a new folder name it any thing
+2. Press right click and chose `git bash here`
+3. Then he well open a cmd for you type this command inside: `git clone https://github.com/DevelopersSupportAR/ZDRA-Protection.git`
 
-1. make a new folder name it any thing
-2. press right click and chose `git bash here`
-3. then he well open a cmd for you type this command inside: `git clone https://github.com/DevelopersSupportAR/8Ticket.git`
+Well done you forked the project in your pc 👏
 
-well done you forked the project in your pc
-
-1. find a folder could `config` and open the `bot.json` file (make sure if you using computer to open this file with `VS Code`)
-2. you well find thar thing like this:
+1. Find a folder called `config` and open the `bot.json` file (make sure if you using computer to open this file with `VS Code`)
+2. You will this [fill them]:
 ```json
     "activity": {
         "name": "<The Bot Activity>", 
@@ -39,15 +39,15 @@ well done you forked the project in your pc
     "mainAdmin": "<ID Of The Main Admin That Will Add More Admins From Commands>"
 ```
 
-3. then install your packages if you using [repl.it](https://www.replit.com/) just press `Run` and he well install the packages for you but if you using [glitch](https://www.glitch.com/) soo this website is auto run and install your packages but if you using your computer soo open any cmd and go inside the bot source folder and type `npm install`
+3. Then install your packages if you using [repl.it](https://www.replit.com/) just press `Run` and it will install the packages for you but if you using [glitch](https://www.glitch.com/) this website is auto run and install your packages but if you using your computer, open any cmd and go inside the bot source folder and type `npm install`
 
-4. if you using [glitch](https://www.glitch.com/) or [replit](https://replit.com/) soo the bot have to be run successfully but if you using you computer soo type `npm start` in the same cmd you opened form installing packages
+4. if you using [glitch](https://www.glitch.com/) or [replit](https://replit.com/) the bot have to be run successfully but if you using you computer type `npm start` in the same cmd you opened form installing packages
 
 ## 🌀 Support
 
 Make sure if have any problem in this bot soo fell free to join [Developer Support](https://discord.gg/developer-support)
 
-## ✨ Mad By
+## ✨ Made By
 
 `@ニロ#3121`
 `@【H2】Cyber#1111`
