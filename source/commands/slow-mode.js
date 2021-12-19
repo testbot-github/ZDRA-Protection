@@ -13,7 +13,7 @@ module.exports = {
      */
 
     run: async(client, message, args, prefix, lang, admins, db, MessageEmbed) => {
-        let channel = message.mentions.channels.first() || client.channels.cache.get(args[1]) || message.channel;
+        let channel = client.channels.cache.get(args[1]) || message.channel;
         let value = args[2] || args[1];
         if (lang == 'ar') {
             channel.setRateLimitPerUser(Number(value));

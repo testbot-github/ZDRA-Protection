@@ -1,5 +1,5 @@
 const { Client, Message, Guild } = require("discord.js");
-
+const db = require('quick.db');
 
 module.exports = {
     name: "setting",
@@ -12,7 +12,7 @@ module.exports = {
      * @param {Guild} guild
      */
 
-    run: async(client, message, args, prefix, lang, admins, servers, db, MessageEmbed) => {
+    run: async(client, message, args, prefix, lang, admins, servers, db2, MessageEmbed) => {
         if (message.author.bot || message.channel.type == "dm") return;
         if (lang == "ar") {
             if (args[1] == "prefix") {

@@ -13,9 +13,6 @@ module.exports = {
      */
 
     run: async(client, message, args, prefix, lang, admins, db, MessageEmbed) => {
-        // message.mentions.members.first() || client.users.cache.get(args);
-        // message.mentions.channels.first() || client.channels.cache.get(args);
-
         let member = message.mentions.members.first() || client.users.cache.get(args[1]);
         let muterole = message.guild.roles.cache.find(role => role.name === 'Muted');
         if (!muterole) {

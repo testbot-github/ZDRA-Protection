@@ -29,7 +29,7 @@ module.exports = {
     run: async(client, interaction, args) => {
         let settings = db.fetch(`Settings_${interaction.guild.id}`);
         let lang = settings.lang;
-        let channel = interaction.guild.channels.get(interaction.options.getChannel('channel')) || interaction.channel;
+        let channel = interaction.guild?.channels?.cache?.get(interaction.options.getChannel('channel')?.id) || interaction.channel;
         let value = interaction.options.getNumber('value');
         if (lang == 'ar') {
             channel.setRateLimitPerUser(Number(value));

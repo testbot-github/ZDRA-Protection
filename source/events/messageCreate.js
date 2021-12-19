@@ -42,7 +42,8 @@ module.exports = async(client, message) => {
     setTimeout(() => time_stamps.delete(message.author.id), cooldown_amount);
     const args = message.content.split(' ');
     try {
-        command.run(client, message, args, prefix, lang, admins, db, MessageEmbed);
+        message.reply({ content: "the normal command needs some fix, so for now only slash command are working" })
+        //command.run(client, message, args, prefix, lang, admins, require("quick.db"), MessageEmbed);
     } catch (e) {
         message.reply({ content: ':x: | Something went wrong ```' + e + '```' });
     }
